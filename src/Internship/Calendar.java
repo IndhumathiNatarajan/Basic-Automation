@@ -29,6 +29,7 @@ public class Calendar {
 		driver.findElement(By.id("password")).sendKeys("setmore123");
 		driver.findElement(By.xpath("//input[@value='Sign In']")).click();
 		Thread.sleep(3000);
+		// test
 	}
 
 	@Test
